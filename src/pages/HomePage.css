@@ -1,0 +1,42 @@
+h1{
+    /*text-align: center;*/
+}
+
+.header-wrapper{
+    margin-bottom: 3rem;
+}
+.video-wrapper{
+    margin: 1em 0;
+}
+.intro-text{
+    font-size: 0.9em;
+}
+
+.sub-title{
+    /*text-align: center;*/
+}
+.about{
+    position: relative;
+    margin: 1.5em 0;
+}
+.about::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+}
+.service-wrapper{
+    display: flex;
+    flex-direction: column;
+    a{
+        text-decoration: none;
+        color: #aaa;
+        margin-bottom: 0.5rem;
+    }
+}
+.copyright{
+    margin-top: 2rem;
+    text-align: center;
+}
