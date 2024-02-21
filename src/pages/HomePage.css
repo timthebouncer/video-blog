@@ -6,10 +6,36 @@ h1{
     margin-bottom: 3rem;
 }
 .video-wrapper{
-    margin: 1em 0;
+    margin: 6em 0;
 }
 .intro-text{
     font-size: 0.9em;
+    height: 4.5em;
+    line-height: 1.4em;
+    position: relative;
+    margin-bottom: 1.4em;
+
+}
+.hide-text{
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.seeMoreBtn-wrapper{
+    text-align: center;
+
+}
+.seeMoreBtn{
+    color: #aaa;
+    background-color: transparent;
+    border-radius: 40%;
+    border: none;
+    font-size: 1em;
+    transition: all .3s ease-out;
+
+}
+.seeMoreBtn:hover{
+    color: lemonchiffon;
+    cursor: pointer;
 }
 
 .sub-title{
@@ -32,7 +58,7 @@ h1{
     flex-direction: column;
     a{
         text-decoration: none;
-        color: #aaa;
+        color: #aaa !important;
         margin-bottom: 0.5rem;
     }
 }
